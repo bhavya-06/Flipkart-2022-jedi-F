@@ -10,10 +10,7 @@ import com.crs.flipkart.dao.StudentDaoInterface;
 import com.crs.flipkart.dao.StudentDaoService;
 import com.crs.flipkart.exceptions.CourseAlreadyOptedException;
 
-/**
- * @author jasan
- *
- */
+
 public class StudentValidator {
 
 	static StudentDaoInterface studentDaoService = new StudentDaoService();
