@@ -7,6 +7,11 @@ package com.crs.flipkart.constants;
 public enum Roles {
     ADMIN,PROFESSOR,STUDENT;
 
+	 /**
+    *
+    * @param role
+    * @return returns the Role object of the corresponding role string
+    */
     public static Roles stringToName(String role)
     {
         Roles userRole=null;
@@ -20,6 +25,11 @@ public enum Roles {
         return userRole;
     }
     
+    /**
+    *
+    * @param role
+    * @return returns the role in string format of the corresponding role object
+    */
     public static String nameToString(Roles role)
     {
     	String userRole=null;
