@@ -79,6 +79,7 @@ public class CRSProfessor {
 	
 	/**
 	 * Method to print a course
+	 * param course : which is to be printed
 	 */
 	public static void printCourse(Course course)
 	{

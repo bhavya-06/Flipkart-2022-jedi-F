@@ -3,10 +3,6 @@
  */
 package com.crs.flipkart.exceptions;
 
-/**
- * @author jasan
- *
- */
 public class CourseAlreadyIndicatedException extends Exception{
 	
 	private String courseId;

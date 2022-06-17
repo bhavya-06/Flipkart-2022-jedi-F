@@ -48,6 +48,11 @@ public class AdminDaoService implements AdminDaoInterface {
         }
     }
 
+	/**
+	 * method to add a course
+	 * @param newCourse
+	 * @return
+	 */
 	public String addCourse(Course newCourse){
         try {
             PreparedStatement ps = conn.prepareStatement(SQLQueries.ADD_COURSE);
@@ -65,6 +70,11 @@ public class AdminDaoService implements AdminDaoInterface {
         return "Course not added.";
     }
 
+	/**
+	 * method for dropping course
+	 * @param courseId
+	 * @throws CourseNotFoundException
+	 */
 	public void dropCourse(String courseId) throws CourseNotFoundException{
         try {
             PreparedStatement ps = conn.prepareStatement(SQLQueries.DROP_COURSE);
@@ -80,6 +90,10 @@ public class AdminDaoService implements AdminDaoInterface {
         
     }
 
+	/**
+	 * method for getting all admission requests
+	 * @return
+	 */
 	public List<Student> getPendingStudents()
 	{
 		List<Student> studentList= new ArrayList<Student>();
@@ -100,7 +114,12 @@ public class AdminDaoService implements AdminDaoInterface {
 	        }
 		return null;
 	}
-	
+
+	/**
+	 * method for approving students admission request.
+	 * @param newStudent
+	 * @return
+	 */
 	public String approveStudent(Student newStudent) {
         try {
             PreparedStatement ps = conn.prepareStatement(SQLQueries.APPROVE_ADDMISSION_REQUEST);
@@ -117,7 +136,13 @@ public class AdminDaoService implements AdminDaoInterface {
         }
         return "Student not approved.";
     }
-	
+
+	/**
+	 * method for adding a new professor in the system
+	 * @param newProfessor
+	 * @return
+	 * @throws EmailAlreadyInUseException
+	 */
    public String addProfessor(Professor newProfessor) throws EmailAlreadyInUseException{
         try {
     		String id = userDaoService.createUser(newProfessor.getName(), newProfessor.getEmail(), newProfessor.getPassword(), Roles.PROFESSOR);
@@ -140,8 +165,12 @@ public class AdminDaoService implements AdminDaoInterface {
         }
         return "Professor not added.";
     }
-	
-	
+
+
+	/**
+	 * method for getting all the professors
+	 * @return
+	 */
 	  @Override
 	public List<Professor> viewProfessorList() {
 		   try {
@@ -165,6 +194,11 @@ public class AdminDaoService implements AdminDaoInterface {
 	        return null;
 		}
 
+	/**
+	 * method for removing professor from the database
+	 * @param professorId
+	 * @throws UserNotFoundException
+	 */
 	   public void dropProfessor(String professorId) throws UserNotFoundException{
 	        try {
 	            PreparedStatement ps = conn.prepareStatement(SQLQueries.REMOVE_USER);
@@ -184,7 +218,11 @@ public class AdminDaoService implements AdminDaoInterface {
 	        }
 	    }
 
-		public List<Student> getPendingGradeStudents()
+	/**
+	 * 	 * method for getting all pending Grade card request
+	 * @return
+	 */
+	public List<Student> getPendingGradeStudents()
 		{
 			List<Student> studentList= new ArrayList<Student>();
 			 try {
@@ -205,6 +243,12 @@ public class AdminDaoService implements AdminDaoInterface {
 			return null;
 		}
 
+	/**
+	 * 	 * method for generating grade card and calculating aggregate CGPA of student
+	 * @param studentId
+	 * @param semester
+	 * @throws GradeNotAllotedException
+	 */
 	public void generateGradeCard(String studentId, String semester) throws GradeNotAllotedException
 	   {
 		   try {
