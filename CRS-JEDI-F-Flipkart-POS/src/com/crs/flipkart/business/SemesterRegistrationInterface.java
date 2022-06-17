@@ -11,8 +11,11 @@ import com.crs.flipkart.exceptions.CourseNotOptedException;
 public interface SemesterRegistrationInterface {
 
 
-	 /**
-    */
+	/**
+	    * method for getting all the courses from course catalog
+	    * 
+	    * @return list of course 
+	    */
 	List<Course> viewCourses();
 
 	 /**

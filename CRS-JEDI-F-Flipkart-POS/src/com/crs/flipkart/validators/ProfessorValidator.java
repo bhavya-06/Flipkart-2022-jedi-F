@@ -7,10 +7,7 @@ import java.util.List;
 
 import com.crs.flipkart.bean.Course;
 
-/**
- * @author jasan
- *
- */
+
 public class ProfessorValidator {
 
 	/*
