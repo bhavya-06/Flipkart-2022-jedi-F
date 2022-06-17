@@ -3,10 +3,7 @@
  */
 package com.crs.flipkart.exceptions;
 
-/**
- * @author adity
- *
- */
+
 public class CourseNotAvailableException extends Exception{
 	private String courseId;
 
