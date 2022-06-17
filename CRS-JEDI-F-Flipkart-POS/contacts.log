@@ -1,0 +1,12 @@
+12:09:06,898 DEBUG SemesterRegistrationDaoService,main:73 - Error: Cannot add or update a child row: a foreign key constraint fails (`crs_database/optedcourses`, CONSTRAINT `courseId` FOREIGN KEY (`courseId`) REFERENCES `course` (`courseId`) ON DELETE CASCADE ON UPDATE CASCADE)
+12:09:52,438 DEBUG SemesterRegistrationDaoService,main:73 - Error: Cannot add or update a child row: a foreign key constraint fails (`crs_database/optedcourses`, CONSTRAINT `courseId` FOREIGN KEY (`courseId`) REFERENCES `course` (`courseId`) ON DELETE CASCADE ON UPDATE CASCADE)
+12:20:12,114 DEBUG ProfessorDaoService,main:126 - Error: Duplicate entry 'S19295094-101' for key 1
+12:26:25,335  INFO AdminDaoService,main:76 - Course dropped successfully.
+
+12:27:23,071  INFO AdminDaoService,main:76 - Course dropped successfully.
+
+13:12:57,899 DEBUG ProfessorDaoService,main:130 - Error: Column 'studentId' in IN/ALL/ANY subquery is ambiguous
+18:28:50,225 DEBUG UserDaoService,main:60 - Error: Table 'crs.role' doesn't exist
+18:32:10,511 DEBUG UserDaoService,main:152 - Error: Table 'crs.role' doesn't exist
+18:35:18,732 DEBUG UserDaoService,main:184 - Error: Table 'crs.student' doesn't exist
+18:37:35,849 DEBUG UserDaoService,main:184 - Error: Incorrect integer value: 'S10976249' for column 'studentId' at row 1
