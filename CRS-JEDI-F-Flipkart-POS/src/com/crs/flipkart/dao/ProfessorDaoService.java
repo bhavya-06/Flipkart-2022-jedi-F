@@ -20,7 +20,6 @@ import com.crs.flipkart.exceptions.CourseNotFoundException;
 import com.crs.flipkart.utils.dbUtil;
 
 /**
- * @author Shubham
  * Implementation of Professor DAO services utilized by business services
  */
 public class ProfessorDaoService implements ProfessorDaoInterface {
@@ -28,6 +27,10 @@ public class ProfessorDaoService implements ProfessorDaoInterface {
 	private static Logger logger = Logger.getLogger(ProfessorDaoService.class);
 	public static Connection conn = dbUtil.getConnection();
 
+    /**
+     * 	 * Method for getting the list of all courses available for the professor to choose
+     * @return
+     */
 	@Override
 	public List<Course> viewCourses() {
         try {
@@ -82,6 +85,11 @@ public class ProfessorDaoService implements ProfessorDaoInterface {
         }
     }
 
+    /**
+     * method for viewing enrolled students in a course
+     * @param courseId
+     * @return
+     */
 	@Override
 	public List<Student> viewEnrolledStudents(String courseId)
 	{
@@ -107,6 +115,11 @@ public class ProfessorDaoService implements ProfessorDaoInterface {
         return null;
 	}
 
+    /**
+     * 	 * Method for retrieving the ungraded students enrolled in a course using SQL commands
+     * @param courseId
+     * @return
+     */
 	@Override
 	public List<Student> viewUngradedStudents(String courseId)
 	{
@@ -131,7 +144,15 @@ public class ProfessorDaoService implements ProfessorDaoInterface {
         }
         return null;
 	}
-	
+
+    /**
+     * 	 * Method for adding the grades of a student for a course in a semester using SQL commands
+     * @param studentId
+     * @param courseId
+     * @param grade
+     * @param semester
+     * @return
+     */
 	@Override
 	public String addGrade(String studentId, String courseId, float grade, String semester) {
         try {

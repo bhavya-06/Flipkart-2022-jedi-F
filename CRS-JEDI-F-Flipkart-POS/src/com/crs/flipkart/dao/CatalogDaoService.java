@@ -25,7 +25,6 @@ public class CatalogDaoService implements CatalogDaoInterface {
 	
 	/**
 	 * Method to return all the courses in the catalog
-	 * 
 	 * @return returns a list of the courses from the database
 	 */
 	@Override
