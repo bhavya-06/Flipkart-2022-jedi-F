@@ -17,10 +17,6 @@ import com.crs.flipkart.exceptions.CourseNotFoundException;
 import com.crs.flipkart.exceptions.CourseNotOptedException;
 import com.crs.flipkart.utils.dbUtil;
 
-/**
- * @author Shubham
- *
- */
 public class SemesterRegistrationDaoService implements SemesterRegistrationDaoInterface {
 
 	private static Logger logger = Logger.getLogger(SemesterRegistrationDaoService.class);
@@ -119,7 +115,12 @@ public class SemesterRegistrationDaoService implements SemesterRegistrationDaoIn
         }
 		return "Database Error";
 	}
-	
+
+	/**
+	 * 	 * method for submitting the course choices of the student
+	 * @param studentId
+	 * @return
+	 */
 	@Override
 	public String submitOptedCourses(String studentId) {
 		// TODO Auto-generated method stub
@@ -143,6 +144,11 @@ public class SemesterRegistrationDaoService implements SemesterRegistrationDaoIn
 		return "Database Error";
 	}
 
+	/**
+	 * 	 * Method to increase the student count when the student registers for the course successfully
+	 * @param studentId
+	 * @return
+	 */
 	public boolean increaseStudentCount(String studentId) {
 		// TODO Auto-generated method stub
 		try {
