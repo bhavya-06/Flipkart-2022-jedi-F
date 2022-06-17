@@ -3,10 +3,7 @@
  */
 package com.crs.flipkart.exceptions;
 
-/**
- * @author jasan
- *
- */
+
 public class CourseNotOptedException extends Exception{
 
 	private String courseId;

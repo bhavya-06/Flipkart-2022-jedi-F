@@ -3,10 +3,7 @@
  */
 package com.crs.flipkart.exceptions;
 
-/**
- * @author adity
- *
- */
+
 public class EmailAlreadyInUseException extends Exception{
 private String emailId;
 	
