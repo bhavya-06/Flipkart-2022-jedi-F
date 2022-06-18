@@ -9,10 +9,7 @@ import com.crs.flipkart.dao.*;
 import com.crs.flipkart.exceptions.EmailAlreadyInUseException;
 import com.crs.flipkart.exceptions.UserNotFoundException;
 
-/**
- * @author Shubham
- *
- */
+
 public class UserService implements UserInterface {
 	UserDaoInterface userDaoService = new UserDaoService();
 	public static User user =null;

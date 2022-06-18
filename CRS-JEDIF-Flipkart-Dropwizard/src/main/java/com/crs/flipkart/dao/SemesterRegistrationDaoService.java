@@ -17,10 +17,7 @@ import com.crs.flipkart.exceptions.CourseNotFoundException;
 import com.crs.flipkart.exceptions.CourseNotOptedException;
 import com.crs.flipkart.utils.dbUtil;
 
-/**
- * @author Shubham
- *
- */
+
 public class SemesterRegistrationDaoService implements SemesterRegistrationDaoInterface {
 
 	private static Logger logger = Logger.getLogger(SemesterRegistrationDaoService.class);

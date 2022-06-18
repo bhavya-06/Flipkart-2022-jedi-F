@@ -3,10 +3,7 @@
  */
 package com.crs.flipkart.bean;
 
-/**
- * @author Raj
- *
- */
+
 public class Grade {
 
 	private String studentEnrollmentId;

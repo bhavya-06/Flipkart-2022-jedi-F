@@ -14,10 +14,7 @@ import com.crs.flipkart.bean.*;
 import com.crs.flipkart.business.*;
 import com.crs.flipkart.validators.ProfessorValidator;
 
-/**
- * @author Shubham
- *
- */
+
 @Path("/professor")
 public class ProfessorRestAPI {
 

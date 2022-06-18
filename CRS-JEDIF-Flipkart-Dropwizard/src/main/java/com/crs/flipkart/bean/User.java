@@ -3,10 +3,7 @@
  */
 package com.crs.flipkart.bean;
 
-/**
- * @author Raj
- *
- */
+
 public class User {
 
 	private String userId;

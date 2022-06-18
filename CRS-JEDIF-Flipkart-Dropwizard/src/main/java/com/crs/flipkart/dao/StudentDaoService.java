@@ -20,10 +20,7 @@ import com.crs.flipkart.constants.SQLQueries;
 import com.crs.flipkart.exceptions.GradeCardNotGeneratedException;
 import com.crs.flipkart.utils.dbUtil;
 
-/**
- * @author Shubham
- *
- */
+
 public class StudentDaoService implements StudentDaoInterface {
 
 	private static Logger logger = Logger.getLogger(StudentDaoService.class);

@@ -3,11 +3,6 @@
  */
 package com.crs.flipkart.constants;
 
-/**
- * @author Shubham
- * 
- * SQL Constant
- */
 public class SQLQueries {
 	
 	public static final String GET_USER_EMAIL_PASSWORD = "SELECT * FROM user JOIN role on user.userId=role.userId WHERE email = ? AND password = ?";

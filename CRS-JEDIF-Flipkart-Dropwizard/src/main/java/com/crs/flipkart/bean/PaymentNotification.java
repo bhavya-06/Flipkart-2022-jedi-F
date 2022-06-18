@@ -3,10 +3,7 @@
  */
 package com.crs.flipkart.bean;
 
-/**
- * @author Raj
- *
- */
+
 public class PaymentNotification {
 
 	private String studentEnrollmentId;

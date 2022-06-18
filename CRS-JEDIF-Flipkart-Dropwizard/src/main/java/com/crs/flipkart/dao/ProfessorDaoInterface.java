@@ -7,10 +7,7 @@ import com.crs.flipkart.exceptions.CourseAlreadyIndicatedException;
 import com.crs.flipkart.exceptions.CourseNotAvailableException;
 import com.crs.flipkart.exceptions.CourseNotFoundException;
 
-/**
- * 
- * ProfessorDaoService dao interface
- */
+
 public interface ProfessorDaoInterface {
 
 	/**

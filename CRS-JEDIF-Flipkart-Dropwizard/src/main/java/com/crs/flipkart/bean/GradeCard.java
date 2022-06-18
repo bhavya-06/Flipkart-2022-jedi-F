@@ -5,10 +5,6 @@ package com.crs.flipkart.bean;
 
 import java.util.*;
 
-/**
- * @author Raj
- *
- */
 public class GradeCard {
 
 	private String studentEnrollmentId;

@@ -17,10 +17,7 @@ import com.crs.flipkart.exceptions.CourseNotFoundException;
 import com.crs.flipkart.validators.ProfessorValidator;
 import com.crs.flipkart.exceptions.CourseAlreadyIndicatedException;
 
-/**
- * @author Shubham
- * Implementation of Professor Services
- */
+
 public class ProfessorService implements ProfessorInterface {
 
 	ProfessorDaoInterface professorDaoService = new ProfessorDaoService();

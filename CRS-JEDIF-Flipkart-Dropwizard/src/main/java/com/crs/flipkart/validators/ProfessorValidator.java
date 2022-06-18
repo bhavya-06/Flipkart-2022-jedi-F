@@ -9,10 +9,7 @@ import com.crs.flipkart.bean.Course;
 import com.crs.flipkart.bean.User;
 import com.crs.flipkart.constants.Roles;
 
-/**
- * @author jasan
- *
- */
+
 public class ProfessorValidator {
 
 	/**

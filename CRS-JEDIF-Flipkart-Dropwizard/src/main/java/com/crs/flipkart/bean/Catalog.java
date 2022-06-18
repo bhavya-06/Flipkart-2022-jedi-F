@@ -5,10 +5,7 @@ package com.crs.flipkart.bean;
 
 import java.util.*;
 
-/**
- * @author Raj
- *
- */
+
 public class Catalog {
 	
 	private List<Course> courseList = new ArrayList<Course>();

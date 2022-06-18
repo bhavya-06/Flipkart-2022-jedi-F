@@ -3,10 +3,6 @@
  */
 package com.crs.flipkart.bean;
 
-/**
- * @author Raj
- *
- */
 public class Course {
 
 	private String courseId;

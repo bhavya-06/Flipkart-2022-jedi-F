@@ -11,10 +11,7 @@ import com.crs.flipkart.exceptions.CourseAlreadyIndicatedException;
 import com.crs.flipkart.exceptions.CourseNotAvailableException;
 import com.crs.flipkart.exceptions.CourseNotFoundException;
 
-/**
- * @author jasan
- * ProfessorService business interface
- */
+
 public interface ProfessorInterface {
 
 	/**

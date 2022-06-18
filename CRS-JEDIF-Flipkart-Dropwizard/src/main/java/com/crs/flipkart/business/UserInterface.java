@@ -7,10 +7,7 @@ import com.crs.flipkart.bean.User;
 import com.crs.flipkart.exceptions.EmailAlreadyInUseException;
 import com.crs.flipkart.exceptions.UserNotFoundException;
 
-/**
- * @author jasan
- *
- */
+
 public interface UserInterface {
 	
 	/**

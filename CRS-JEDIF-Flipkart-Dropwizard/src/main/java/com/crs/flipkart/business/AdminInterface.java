@@ -13,10 +13,7 @@ import com.crs.flipkart.bean.Professor;
 import com.crs.flipkart.bean.Student;
 import com.crs.flipkart.exceptions.*;
 
-/**
- * @author jasan
- *
- */
+
 public interface AdminInterface {
 
 	/**

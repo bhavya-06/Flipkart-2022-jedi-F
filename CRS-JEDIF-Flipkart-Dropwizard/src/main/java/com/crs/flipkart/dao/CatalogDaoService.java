@@ -14,10 +14,7 @@ import com.crs.flipkart.bean.Course;
 import com.crs.flipkart.utils.*;
 import com.crs.flipkart.constants.*;
 
-/**
- * @author Shubham
- *
- */
+
 public class CatalogDaoService implements CatalogDaoInterface {
 
 	private static Logger logger = Logger.getLogger(CatalogDaoService.class);

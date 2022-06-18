@@ -19,10 +19,7 @@ import com.crs.flipkart.exceptions.EmailAlreadyInUseException;
 import com.crs.flipkart.exceptions.UserNotFoundException;
 import com.crs.flipkart.utils.dbUtil;
 
-/**
- * @author Shubham
- *
- */
+
 public class UserDaoService implements UserDaoInterface {
 
 	private static Logger logger = Logger.getLogger(UserDaoService.class);

@@ -14,10 +14,7 @@ import org.apache.log4j.Logger;
 import com.crs.flipkart.bean.*;
 import com.crs.flipkart.business.*;
 import com.crs.flipkart.validators.AdminValidator;
-/**
- * @author Shubham
- *
- */
+
 @Path("/administrator")
 public class AdminRestAPI {
 

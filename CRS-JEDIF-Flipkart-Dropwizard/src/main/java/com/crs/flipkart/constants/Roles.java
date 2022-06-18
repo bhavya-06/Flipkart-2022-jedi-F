@@ -3,10 +3,7 @@
  */
 package com.crs.flipkart.constants;
 
-/**
- * @author jasan
- *
- */
+
 public enum Roles {
     ADMIN,PROFESSOR,STUDENT;
 

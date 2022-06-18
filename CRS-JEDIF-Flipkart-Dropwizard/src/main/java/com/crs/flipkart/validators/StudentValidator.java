@@ -11,10 +11,6 @@ import com.crs.flipkart.constants.Roles;
 import com.crs.flipkart.dao.StudentDaoInterface;
 import com.crs.flipkart.dao.StudentDaoService;
 
-/**
- * @author jasan
- *
- */
 public class StudentValidator {
 
 	static StudentDaoInterface studentDaoService = new StudentDaoService();

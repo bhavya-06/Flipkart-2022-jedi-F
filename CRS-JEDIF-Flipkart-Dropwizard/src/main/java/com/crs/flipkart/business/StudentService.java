@@ -14,10 +14,7 @@ import com.crs.flipkart.dao.StudentDaoInterface;
 import com.crs.flipkart.dao.StudentDaoService;
 import com.crs.flipkart.exceptions.GradeCardNotGeneratedException;
 
-/**
- * @author Shubham
- *Implementation of Student Services
- */
+
 public class StudentService implements StudentInterface {
 
 	StudentDaoInterface studentDaoService = new StudentDaoService();

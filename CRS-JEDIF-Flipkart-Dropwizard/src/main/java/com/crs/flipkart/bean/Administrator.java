@@ -5,10 +5,7 @@ package com.crs.flipkart.bean;
 
 import java.util.Date;
 
-/**
- * @author Raj
- *
- */
+
 public class Administrator extends User {
 
 	private String adminId;

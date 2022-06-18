@@ -10,10 +10,7 @@ import com.crs.flipkart.bean.GradeCard;
 import com.crs.flipkart.bean.Payment;
 import com.crs.flipkart.exceptions.GradeCardNotGeneratedException;
 
-/**
- * @author jasan
- *
- */
+
 public interface StudentInterface {
 	
 	 /**

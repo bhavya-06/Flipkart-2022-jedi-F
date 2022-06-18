@@ -5,10 +5,7 @@ package com.crs.flipkart.bean;
 
 import java.util.Date;
 
-/**
- * @author Raj
- *
- */
+
 public class Professor extends User{
 
 	private String professorId;

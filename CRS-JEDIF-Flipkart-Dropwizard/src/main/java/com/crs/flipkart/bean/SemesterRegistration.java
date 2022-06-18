@@ -6,10 +6,7 @@ package com.crs.flipkart.bean;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Raj
- *
- */
+
 public class SemesterRegistration {
 
 	private String studentEnrollmentId;

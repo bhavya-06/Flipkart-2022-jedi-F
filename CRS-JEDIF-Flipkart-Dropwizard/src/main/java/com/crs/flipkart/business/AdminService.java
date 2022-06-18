@@ -16,10 +16,7 @@ import com.crs.flipkart.exceptions.GradeNotAllotedException;
 import com.crs.flipkart.exceptions.UserNotFoundException;
 import com.crs.flipkart.validators.AdminValidator;
 
-/**
- * @author Shubham
- * Implementation of Admin Interface
- */
+
 public class AdminService implements AdminInterface {
 
 	

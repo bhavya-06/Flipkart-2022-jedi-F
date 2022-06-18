@@ -20,10 +20,7 @@ import com.crs.flipkart.exceptions.GradeNotAllotedException;
 import com.crs.flipkart.exceptions.UserNotFoundException;
 import com.crs.flipkart.utils.dbUtil;
 
-/**
- * @author Shubham
- * Implementation of admin dao interface
- */
+
 public class AdminDaoService implements AdminDaoInterface {
 	
 	private static Logger logger = Logger.getLogger(AdminDaoService.class);

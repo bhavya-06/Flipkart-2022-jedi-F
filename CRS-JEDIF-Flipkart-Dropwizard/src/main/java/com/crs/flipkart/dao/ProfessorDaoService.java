@@ -19,10 +19,7 @@ import com.crs.flipkart.exceptions.CourseNotAvailableException;
 import com.crs.flipkart.exceptions.CourseNotFoundException;
 import com.crs.flipkart.utils.dbUtil;
 
-/**
- * @author Shubham
- * Implementation of Professor DAO services utilized by business services
- */
+
 public class ProfessorDaoService implements ProfessorDaoInterface {
 
 	private static Logger logger = Logger.getLogger(ProfessorDaoService.class);
