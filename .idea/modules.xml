@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CRS-JEDIF-Flipkart-Dropwizard/CRS-JEDI-7-Flipkart-DropWizard.iml" filepath="$PROJECT_DIR$/CRS-JEDIF-Flipkart-Dropwizard/CRS-JEDI-7-Flipkart-DropWizard.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Flipkart-2022-jedi-F.iml" filepath="$PROJECT_DIR$/.idea/Flipkart-2022-jedi-F.iml" />
     </modules>
   </component>
