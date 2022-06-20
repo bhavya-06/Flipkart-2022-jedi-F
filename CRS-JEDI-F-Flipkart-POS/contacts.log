@@ -10,3 +10,5 @@
 18:32:10,511 DEBUG UserDaoService,main:152 - Error: Table 'crs.role' doesn't exist
 18:35:18,732 DEBUG UserDaoService,main:184 - Error: Table 'crs.student' doesn't exist
 18:37:35,849 DEBUG UserDaoService,main:184 - Error: Incorrect integer value: 'S10976249' for column 'studentId' at row 1
+18:38:24,310 DEBUG ProfessorDaoService,main:169 - Error: Unknown column 'gpa' in 'field list'
+19:52:50,381 DEBUG ProfessorDaoService,main:169 - Error: Unknown column 'gpa' in 'field list'
